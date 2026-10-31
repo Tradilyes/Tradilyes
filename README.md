@@ -1,7 +1,8 @@
 ### Ilyes M. Trad
 
 Jurist building legal AI that can be checked — for the Gulf and France, in Arabic, French and English.
-Judge since 2021; lecturer and doctoral researcher in law and artificial intelligence (MANAR University).
+Background in the courts and in legal-tech design; lecturer and doctoral researcher in law and artificial
+intelligence (MANAR University).
 
 **[courtproof](https://github.com/Tradilyes/courtproof)** — checks for bilingual contracts (Arabic · English ·
 French) that work with any AI model: clause-by-clause parity, references to laws repealed or renumbered
