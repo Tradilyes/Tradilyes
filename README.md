@@ -13,16 +13,18 @@ rule, it writes a note for the lawyer instead of overriding it.
 
 **What it gives, measured** (synthetic documents, answer keys written by hand, every run public):
 
-| Task for an in-house team | Strongest model alone (Claude Opus 5.5) | My system with a small model (Claude Haiku 5.5) |
+| Task for an in-house team | Strongest model (Claude Opus 5.5), alone or running Anthropic's own legal agents | My system with a small model (Claude Haiku 5.5) |
 |---|---|---|
-| Triage 12 NDAs, 7 in English and Arabic | 24 / 24 right routings, with Anthropic's own skill · $0.055 each | 24 / 24 · $0.0045 each |
-| Review 8 AI vendors against policy and Gulf/EU law | 14 / 16 right decisions · $0.060 each | 15 / 16 · $0.0045 each |
+| Triage 12 NDAs, 7 in English and Arabic | 24 / 24 right routings, running Claude for Legal's NDA Triager · $0.058 each | 24 / 24 · $0.0046 each |
+| Review 8 AI vendors against policy and Gulf/EU law | 16 / 16 right decisions; one Gulf rule missed, two needless conditions · $0.051 each | 15 / 16 (one answer not valid JSON); no rule missed · $0.0047 each |
 | Compare very long bilingual contracts (1,151 clauses) | 59 / 60 discrepancies · $1.12 each | 60 / 60 · $0.22 each |
 | Gulf data-protection rules in force on 1 November 2026 | 11 / 20; 19 / 20 with web search ($0.59) | 20 / 20 · $0.004 |
 
-Where the strongest model is already excellent — short NDAs — the tables say so. The gain is
-reliability at a fraction of the cost, verifiable quotes, and the law that changed after the model
-was trained.
+Where the strongest model is already excellent — short NDAs, vendor decisions — the table says so.
+The gain is the same decisions at a fraction of the cost, quotes checked by code, and the Gulf law
+that changed after the model was trained. Both projects work beside Claude for Legal, Anthropic's
+legal agents: they read the team's playbook from the same practice profile, and they measure the
+official agents on the same cases.
 
 **[courtproof](https://github.com/Tradilyes/courtproof)** — contract review in Arabic, English and
 French: an NDA-triage agent, bilingual parity, laws repealed or renumbered (UAE Civil Transactions
