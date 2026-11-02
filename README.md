@@ -26,6 +26,12 @@ that changed after the model was trained. Both projects work beside Claude for L
 legal agents: they read the team's playbook from the same practice profile, and they measure the
 official agents on the same cases.
 
+**[tamyiz](https://github.com/Tradilyes/tamyiz)** — a legal team's own case law, for every AI tool
+it uses. On ten NDAs at the edge of a Dubai company's playbook, four AI reviewers, Claude for Legal's
+NDA Triager among them, all read the clauses the same way: eight as the General Counsel meant, two
+not. Two rulings of the General Counsel, compiled into every tool's instructions, took each reviewer
+from 8 / 10 to 10 / 10 on new wordings, and reached no case they were not written for.
+
 **[courtproof](https://github.com/Tradilyes/courtproof)** — contract review in Arabic, English and
 French: an NDA-triage agent, bilingual parity, laws repealed or renumbered (UAE Civil Transactions
 Law, June 2026), exact Gregorian and Hijri deadlines.
