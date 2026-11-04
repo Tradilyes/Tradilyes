@@ -1,51 +1,27 @@
 ### Ilyes M. Trad
 
-I design AI workflows for in-house legal teams — in Arabic, French and English, for the Gulf and
-France — and I measure them against the strongest models. Background in the courts and in
-legal-tech design; lecturer and doctoral researcher in law and artificial intelligence (MANAR
-University).
+Doctoral researcher in law at MANAR University (artificial intelligence, legal technology, digital
+regulation) and lecturer, with a background in the courts. Arabic, French, English.
 
-**How I build.** A language model does the reading: it finds the facts wherever they are phrased,
-judges what the words mean, explains. Code does what code does better: the rules of the law and of
-the company's playbook, with a source for each; the checks that do not tire (two language versions,
-deadlines, quotes); a routing that stays the same from one day to the next. Where the model doubts a
-rule, it writes a note for the lawyer instead of overriding it.
+I study how AI systems read legal rules, and how a legal team can check and govern that reading,
+in Arabic and French as well as English.
 
-**What it gives, measured** (synthetic documents, answer keys written by hand, every run public):
+**[tamyiz](https://github.com/Tradilyes/tamyiz)**, the current programme. A panel of lawyers reads
+contract clauses at the edge of a playbook; their disagreements are kept as data; AI reviewers from
+several providers are measured against them; a team's written rulings are tested as a remedy. The pilot
+(November 2026) found four AI configurations unanimous on ten edge clauses and, twice, unanimous against
+the stated intention; with ten questions and one provider, that is a reason for a proper study, not a
+result. Study A is being prepared, with a protocol to be registered before any reading.
 
-| Task for an in-house team | Strongest model (Claude Opus 5.5), alone or running Anthropic's own legal agents | My system with a small model (Claude Haiku 5.5) |
-|---|---|---|
-| Triage 12 NDAs, 7 in English and Arabic | 24 / 24 right routings, running Claude for Legal's NDA Triager · $0.058 each | 24 / 24 · $0.0046 each |
-| Review 8 AI vendors against policy and Gulf/EU law | 16 / 16 right decisions; one Gulf rule missed, two needless conditions · $0.051 each | 15 / 16 (one answer not valid JSON); no rule missed · $0.0047 each |
-| Compare very long bilingual contracts (1,151 clauses) | 59 / 60 discrepancies · $1.12 each | 60 / 60 · $0.22 each |
-| Gulf data-protection rules in force on 1 November 2026 | 11 / 20; 19 / 20 with web search ($0.59) | 20 / 20 · $0.004 |
+**Lawyers in the Gulf, France or the Maghreb** who would read 40 to 60 short clauses for Study A (two to
+three hours, credited by name if you wish): the instructions are
+[here](https://github.com/Tradilyes/tamyiz/blob/main/annotation/README.md)
+([en français](https://github.com/Tradilyes/tamyiz/blob/main/annotation/LISEZMOI.md)).
 
-Where the strongest model is already excellent — short NDAs, vendor decisions — the table says so.
-The gain is the same decisions at a fraction of the cost, quotes checked by code, and the Gulf law
-that changed after the model was trained. Both projects work beside Claude for Legal, Anthropic's
-legal agents: they read the team's playbook from the same practice profile, and they measure the
-official agents on the same cases.
+Two instruments of the programme, courtproof (checks for Arabic–English contracts and Gulf legal
+references) and compliance-atlas (dated, sourced facts on Gulf and EU data-protection law), will be
+published once their documentation meets the same standard.
 
-**[tamyiz](https://github.com/Tradilyes/tamyiz)** — a legal team's own case law, for every AI tool
-it uses. On ten NDAs at the edge of a Dubai company's playbook, four AI reviewers, Claude for Legal's
-NDA Triager among them, all read the clauses the same way: eight as the General Counsel meant, two
-not. Two rulings of the General Counsel, compiled into every tool's instructions, took each reviewer
-from 8 / 10 to 10 / 10 on new wordings, and reached no case they were not written for.
-
-**[courtproof](https://github.com/Tradilyes/courtproof)** — contract review in Arabic, English and
-French: an NDA-triage agent, bilingual parity, laws repealed or renumbered (UAE Civil Transactions
-Law, June 2026), exact Gregorian and Hijri deadlines.
-
-**[compliance-atlas](https://github.com/Tradilyes/compliance-atlas)** — vendor intake for in-house
-teams: can we give this AI vendor our data? On a sourced atlas of ten data-protection regimes of the
-Gulf and the EU, and the EU AI Act.
-
-**[travail-fr](https://github.com/Tradilyes/travail-fr)** — French employment-litigation assistant
-for Claude Code and Codex: verified official sources, local calculations, deadlines, drafting, an
-independent reviewer.
-
-Each project comes with playbooks a legal team can follow: a four-week pilot with success measures
-set in advance, a template sweep after a law is renumbered, a hosting answer for a new AI vendor,
-the first 24 hours of a data breach, due diligence on a legal-AI vendor, an AI-use policy.
-
-I write with the help of AI assistants and publish the tests that check the result.
+I build with AI assistants and say so: code and drafts are written with Claude under my direction; the
+questions, the legal analysis and the decision to publish are mine, and every figure is computed from
+data in the repositories.
