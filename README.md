@@ -14,7 +14,7 @@ re-analyse it.
   and English, each with one answer checked against the official text. Does the answer an AI gives
   depend on the language of the question? In 2,106 answers from three Claude models, it did not,
   beyond chance; what mattered was the date: on rules changed since 2024, the smaller models were
-  often wrong, and always with the former rule.
+  often wrong, and each wrong answer on a rule with a known former value gave that former value.
 - Pilot on contract playbooks (November 2026): four AI configurations were unanimous on ten clauses
   at the edge of a playbook and, twice, unanimous against the stated intention. With ten questions
   and one provider, that is a reason for a study, not a result.
