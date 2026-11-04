@@ -12,8 +12,9 @@ re-analyse it.
 - *Equal before the machine?* (Study B, registered on 4 November 2026 before any run). The same 54
   labour-law questions on the United Arab Emirates, Saudi Arabia and France, asked in Arabic, French
   and English, each with one answer checked against the official text. Does the answer an AI gives
-  depend on the language of the question? The study also measures rules changed since 2024, the effect
-  of web search, and what happens when the user pushes back.
+  depend on the language of the question? In 2,106 answers from three Claude models, it did not,
+  beyond chance; what mattered was the date: on rules changed since 2024, the smaller models were
+  often wrong, and always with the former rule.
 - Pilot on contract playbooks (November 2026): four AI configurations were unanimous on ten clauses
   at the edge of a playbook and, twice, unanimous against the stated intention. With ten questions
   and one provider, that is a reason for a study, not a result.
