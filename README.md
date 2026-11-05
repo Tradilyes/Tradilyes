@@ -1,11 +1,34 @@
 ### Ilyes M. Trad
 
 Doctoral researcher in law at MANAR University (artificial intelligence, legal technology, digital
-regulation) and lecturer, with a background in the courts. Arabic, French, English.
+regulation) and lecturer. Arabic, French, English.
 
-I study how AI systems read and apply legal rules, in Arabic and French as well as English. Each
-study is registered before it is run, and its data and code are public, so that anyone can check or
-re-analyse it.
+I build AI assistants for legal work, and I study how AI systems read and apply legal rules, in
+Arabic and French as well as English.
+
+#### Legal AI assistants for French law
+
+Each assistant installs in the Claude app (Code tab) and in Claude Code; in Codex, with its skills and
+local tools. Amounts and dates come from local calculation tools, never from memory; quotations are
+checked word for word against their source with a local tool (in contrats-fr, a hook sends back any
+answer that quotes without that check); and an independent reviewer agent re-reads each document
+before it leaves.
+
+| | What it does | Availability |
+|---|---|---|
+| **travail-fr** 0.4.5 | Employment-law litigation: intake, deadlines, claims calculated with 32 local tools, official sources, pleadings and letters, review from the opponent's side. For lawyers on either side, in-house teams and HR, union advisers, and employees in plain language. | free, MIT licence; release in preparation; demonstration on request |
+| **contrats-fr** 0.1.0 | Contract law: each contract read clause by clause from the client's side; applicable law and court, EU texts and AI Act classification, late-payment penalties, limitation periods, renewal notices, public-procurement remedies (22 local tools); redlines as tracked changes in Word. Each result states where its rule comes from and whether it was checked against the official text. | free, MIT licence; release in preparation; demonstration on request |
+| **STAXIS** | The professional editions of both assistants, built on a structured reading of French case law, decision by decision (pilot in progress). | made to order |
+
+French law forbids reusing the identity of judges and court clerks to evaluate, analyse, compare or
+predict their professional practice (Article L. 10 of the Code of Administrative Justice; Article
+L. 111-13 of the Code of Judicial Organisation). These tools refuse any such request, and go further:
+no statistics by named court, chamber or bench either.
+
+#### Research
+
+Each study is registered before it is run, and its data and code are public, so that anyone can
+check or re-analyse it.
 
 **[tamyiz](https://github.com/Tradilyes/tamyiz)**, the current programme.
 
@@ -23,6 +46,6 @@ Two instruments of the programme, courtproof (checks for Arabic–English contra
 references) and compliance-atlas (dated, sourced facts on Gulf and EU data-protection law), will be
 published once their documentation meets the same standard.
 
-I build with AI assistants and say so: code and drafts are written with Claude under my direction; the
-questions, the legal analysis and the decision to publish are mine, and every figure is computed from
-data in the repositories.
+#### Contact
+
+ilyes.trad95@gmail.com
